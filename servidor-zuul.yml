@@ -6,6 +6,7 @@ zuul:
       servicio-vuelos: # Service to create as sample
         path: /vuelos/** #path that will be intercepted
         serviceId: servicio-vuelos
+        #url: http://localhost:9000
       servicio-hoteles: # Service to create as sample
         path: /hoteles/** #path that will be intercepted
         serviceId: servicio-hoteles
